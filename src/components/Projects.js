@@ -18,6 +18,10 @@ const Projects = () => {
                     <button type="button" className="btn btn-link" onClick={() => window.open("https://github.com/itsjohnong/RandomQuote")}>
                         Github!
                     </button>
+                    <br />
+                    <button type="button" className="btn btn-link" onClick={() => window.open("https://randomquote-seven.vercel.app/")}>
+                        Try me!
+                    </button>
                 </div>
             </div>
             <div className="row">
@@ -26,6 +30,10 @@ const Projects = () => {
                     Take a look here at 
                     <button type="button" className="btn btn-link" onClick={() => window.open("https://github.com/itsjohnong/yt.app")}>
                         Github!
+                    </button>
+                    <br />
+                    <button type="button" className="btn btn-link" onClick={() => window.open("https://videos-hooks-peach-kappa.vercel.app/")}>
+                        Try me!
                     </button>
                 </div>
                 <div className="col-6">
@@ -42,6 +50,10 @@ const Projects = () => {
                     <button type="button" className="btn btn-link" onClick={() => window.open("https://github.com/itsjohnong/markdown")}>
                         Github!
                     </button>
+                    <br />
+                    <button type="button" className="btn btn-link" onClick={() => window.open("https://markdown-lake.vercel.app/")}>
+                        Try me!
+                    </button>
                 </div>
             </div>
             <div className="row">
@@ -50,6 +62,10 @@ const Projects = () => {
                     Take a look here at 
                     <button type="button" className="btn btn-link" onClick={() => window.open("https://github.com/itsjohnong/widgets")}>
                         Github!
+                    </button>
+                    <br />
+                    <button type="button" className="btn btn-link" onClick={() => window.open("https://widgets-eight-gules.vercel.app/")}>
+                        Try me!
                     </button>
                 </div>
                 <div className="col-6">

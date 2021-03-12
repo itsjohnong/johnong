@@ -18,10 +18,18 @@ const Navbar = () => {
                         <div href="#" data-toggle="collapse" data-target=".navbar-collapse.show" id="projectsBtn">Projects</div>
                             <button className="btn dropdown-toggle dropdown-toggle-split" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" />
                             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Random Quote Machine</a>
-                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Videos</a>
-                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Markdown Editor</a>
-                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show">Widgets</a>
+                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={() => window.open("https://randomquote-seven.vercel.app/")}>
+                                    Random Quote Machine
+                                </a>
+                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={() => window.open("https://videos-hooks-peach-kappa.vercel.app/")}>
+                                    Videos
+                                </a>
+                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={() => window.open("https://markdown-lake.vercel.app/")}>
+                                    Markdown Editor
+                                </a>
+                                <a className="dropdown-item" href="#" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={() => window.open("https://widgets-eight-gules.vercel.app/")}>
+                                    Widgets
+                                </a>
                             </div>
                         </div>
                         </Link>

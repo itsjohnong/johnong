@@ -158,3 +158,31 @@ p {
     }
 }
 
+/* About Page */
+
+.card {
+    max-width: 90%;
+    margin: 0 auto;
+    float: none; 
+    margin-bottom: 10px; 
+    border-radius: 20px;
+    background-color: #d1bbae;
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        max-width: 70%;
+        margin: 0 auto;
+        float: none; 
+        margin-bottom: 10px; 
+        border-radius: 20px;
+        background-color: #d1bbae;
+    }
+}
+
+/* Home Page */
+
+#frontpage {
+    background-image: url("johnOng.jpeg");
+    height: 750px;
+}
