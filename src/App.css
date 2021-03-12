@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
+body {
+    background-color: #edddd4;
+    padding-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+    background-color: azure;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .navbar-brand {
+    background-image: linear-gradient(to top, #333333 0%, #dd1818 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Projects Page */
+
+#frontpage {
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#randomquote {
+    max-width: 100%;
 }
+
+#videos {
+    max-width: 100%;
+}
+
+#markdown {
+    max-width: 100%;
+}
+
+#widgets {
+    height: 300px;
+    max-width: 100%;
+}
+
+#dropdownMenuButton {
+    padding:0px;
+}
+
+#projectsBtn {
+    padding-right: 3px;
+}
+
+#projects button {
+    padding-left: 2px;
+    margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 992px) {
+    #randomquote img {
+        height: 100%;
+    }
+
+    #videos {
+        height: 600px;
+    }
+
+    #markdown {
+        height: 600px;
+    }
+
+    #widgets {
+        height: 400px;
+    }
+}
+
+/* Contacts Page */
+
+.row {
+    padding-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+      background: linear-gradient(
+        45deg,
+        #F0F2F0,
+        #000C40 100%
+      );
+    border-radius: 20%;
+    margin: 2px;
+    flex: auto;
+    text-align: center;
+    opacity: 1;
+}
+
+.contact img {
+    height: 20px;
+}
+
+.contact:hover {
+    background-image:linear-gradient(#000C40, #F0F2F0);
+    box-shadow: 3px 3px rgba(91, 14, 214, 0.5);
+    z-index: 100;
+}
+
+.contact:hover img {
+    height: 2rem;
+}
+
+#contacts {
+    background-image: url("contacts.jpg");
+    padding-bottom: 100px;
+    background-position:right;
+    height: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    #contacts {
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contact {
+       height: 200px;
+       text-align: center;
+    }
+
+    .contact h4 {
+        font-size: 40px;
+        padding-top: 15px;
+    }
+
+    .contact img {
+        height: 28px;
+    }
+
+    .contact:hover img {
+        height: 3rem;
+    }
+}
+
