@@ -6,10 +6,10 @@ const About = () => {
             <h1>About</h1>
             <div className="card">
                 <div className="card-body">
-                    Frontend Developer that is proficient in React Hooks, HTML and CSS. 
+                    Frontend Developer proficient in React.js, HTML and CSS. 
                     <br />
                     <br />
-                    Self taught and passionate about learning web development through projects, online courses and resources. 
+                    Self taught web developer with a passion for solving challenging problems and eager to learn.
                     <br />
                     <br />
                     Courses I have taken so far but not limited to are 
